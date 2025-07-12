@@ -5,8 +5,8 @@
         // Remove spinner
         setTimeout(function () {
             if ($('#spinner').length > 0) {
-                // $('#spinner').removeClass('show');
-                $('#spinner').fadeOut('slow');
+                $('#spinner').removeClass('show');
+                // $('#spinner').fadeOut('slow');
             }
         }, 1);
 
