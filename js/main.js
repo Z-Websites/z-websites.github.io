@@ -122,5 +122,16 @@
         }
     });
     
+    // Load contact info from contact.json
+    fetch('/data/contact.json')
+      .then(res => res.json())
+      .then(data => {
+          $('[data-contact]').each(function () {
+              const key = $(this).data('contact');
+              if (data[key]) {
+                  $(this).text(data[key]);
+              }
+          });
+      });    
 })(jQuery);
 
