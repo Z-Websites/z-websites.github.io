@@ -1,5 +1,16 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+</head>
+<body>
+  {% include header.html %}
 
-what we do page
+  <main>
+    {{ content }}
+  </main>
 
-{% include footer.html %}
+  {% include footer.html %}
+</body>
+</html>
