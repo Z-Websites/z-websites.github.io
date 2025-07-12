@@ -1,15 +1,28 @@
 (function ($) {
     "use strict";
 
-    // Spinner
-    var spinner = function () {
+    $(document).ready(function () {
+        // Remove spinner
         setTimeout(function () {
             if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
+                // $('#spinner').removeClass('show');
+                $('#spinner').fadeOut('slow');
             }
         }, 1);
-    };
-    spinner();
+
+        // Load contact info
+        fetch('/data/contact.json')
+            .then(res => res.json())
+            .then(data => {
+                $('[data-contact]').each(function () {
+                    const key = $(this).data('contact');
+                    if (data[key]) {
+                        $(this).text(data[key]);
+                    }
+                });
+            });
+    });
+
     
     
     // Initiate the wowjs
@@ -122,16 +135,6 @@
         }
     });
     
-    // // Load contact info from contact.json
-    // fetch('/data/contact.json')
-    //   .then(res => res.json())
-    //   .then(data => {
-    //       $('[data-contact]').each(function () {
-    //           const key = $(this).data('contact');
-    //           if (data[key]) {
-    //               $(this).text(data[key]);
-    //           }
-    //       });
-    //   });    
+ 
 })(jQuery);
 
