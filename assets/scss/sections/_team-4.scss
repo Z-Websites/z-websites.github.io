@@ -1,0 +1,100 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# Team 4 Section
+--------------------------------------------------------------*/
+.team-4 {
+  .team-member {
+    background-color: var(--surface-color);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 30px color-mix(in srgb, var(--default-color), transparent 95%);
+    transition: transform 0.3s ease;
+    height: 100%;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 30px color-mix(in srgb, var(--accent-color), transparent 80%);
+
+      .member-img .social {
+        right: 0;
+      }
+    }
+  }
+
+  .member-img {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .social {
+      position: absolute;
+      right: -100%;
+      top: 0;
+      bottom: 0;
+      width: 50px;
+      background: linear-gradient(to left, var(--accent-color), color-mix(in srgb, var(--accent-color), transparent 20%));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      transition: right 0.3s ease;
+
+      a {
+        color: var(--contrast-color);
+        font-size: 1.2rem;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: 0.3s;
+
+        &:hover {
+          background-color: color-mix(in srgb, var(--contrast-color), transparent 90%);
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+
+  .member-info {
+    padding: 1.5rem;
+    text-align: center;
+
+    h4 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--heading-color);
+    }
+
+    span {
+      display: block;
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+      color: var(--accent-color);
+    }
+
+    p {
+      font-size: 0.875rem;
+      line-height: 1.6;
+      margin: 0;
+      color: color-mix(in srgb, var(--default-color), transparent 30%);
+    }
+  }
+
+  @media (max-width: 991px) {
+    .team-member {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+}
