@@ -826,9 +826,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Consultation Form Section
+# Signup Form Section
 --------------------------------------------------------------*/
-.consultation-form .cta-wrapper {
+.signup-form .cta-wrapper {
   background-color: var(--surface-color);
   border-radius: 15px;
   padding: 60px;
@@ -837,7 +837,7 @@ section,
   overflow: hidden;
 }
 
-.consultation-form .cta-wrapper::before {
+.signup-form .cta-wrapper::before {
   content: "";
   position: absolute;
   top: 0;
@@ -848,29 +848,29 @@ section,
 }
 
 @media (max-width: 992px) {
-  .consultation-form .cta-wrapper {
+  .signup-form .cta-wrapper {
     padding: 40px;
   }
 }
 
 @media (max-width: 576px) {
-  .consultation-form .cta-wrapper {
+  .signup-form .cta-wrapper {
     padding: 30px 20px;
   }
 }
 
-.consultation-form .cta-content {
+.signup-form .cta-content {
   padding-right: 30px;
 }
 
 @media (max-width: 992px) {
-  .consultation-form .cta-content {
+  .signup-form .cta-content {
     padding-right: 0;
     margin-bottom: 40px;
   }
 }
 
-.consultation-form .cta-content h2 {
+.signup-form .cta-content h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
@@ -878,24 +878,24 @@ section,
 }
 
 @media (max-width: 768px) {
-  .consultation-form .cta-content h2 {
+  .signup-form .cta-content h2 {
     font-size: 2rem;
   }
 }
 
-.consultation-form .cta-content p {
+.signup-form .cta-content p {
   font-size: 1.1rem;
   margin-bottom: 2rem;
   color: var(--default-color);
 }
 
-.consultation-form .cta-content .cta-stats {
+.signup-form .cta-content .cta-stats {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.consultation-form .cta-content .cta-stats .stat-item .number {
+.signup-form .cta-content .cta-stats .stat-item .number {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--accent-color);
@@ -904,23 +904,23 @@ section,
 }
 
 @media (max-width: 768px) {
-  .consultation-form .cta-content .cta-stats .stat-item .number {
+  .signup-form .cta-content .cta-stats .stat-item .number {
     font-size: 2rem;
   }
 }
 
-.consultation-form .cta-content .cta-stats .stat-item .text {
+.signup-form .cta-content .cta-stats .stat-item .text {
   font-size: 0.9rem;
   color: var(--default-color);
 }
 
-.consultation-form .cta-form {
+.signup-form .cta-form {
   background-color: color-mix(in srgb, var(--surface-color), #000 3%);
   border-radius: 10px;
   padding: 30px;
 }
 
-.consultation-form .cta-form h3 {
+.signup-form .cta-form h3 {
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 10px;
@@ -928,18 +928,18 @@ section,
 }
 
 @media (max-width: 768px) {
-  .consultation-form .cta-form h3 {
+  .signup-form .cta-form h3 {
     font-size: 1.5rem;
   }
 }
 
-.consultation-form .cta-form p {
+.signup-form .cta-form p {
   font-size: 1rem;
   margin-bottom: 25px;
   color: var(--default-color);
 }
 
-.consultation-form .cta-form .form-control {
+.signup-form .cta-form .form-control {
   height: 50px;
   padding: 10px 15px;
   border-radius: 5px;
@@ -949,16 +949,16 @@ section,
   font-size: 14px;
 }
 
-.consultation-form .cta-form .form-control:focus {
+.signup-form .cta-form .form-control:focus {
   border-color: var(--accent-color);
   box-shadow: none;
 }
 
-.consultation-form .cta-form .form-control::placeholder {
+.signup-form .cta-form .form-control::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.consultation-form .cta-form select.form-control {
+.signup-form .cta-form select.form-control {
   appearance: none;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -966,7 +966,7 @@ section,
   background-size: 15px;
 }
 
-.consultation-form .cta-form button[type=submit] {
+.signup-form .cta-form button[type=submit] {
   background-color: var(--accent-color);
   border: none;
   color: var(--contrast-color);
@@ -978,7 +978,7 @@ section,
   width: 100%;
 }
 
-.consultation-form .cta-form button[type=submit]:hover {
+.signup-form .cta-form button[type=submit]:hover {
   background-color: color-mix(in srgb, var(--accent-color), #000 10%);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
