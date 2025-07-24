@@ -99,7 +99,7 @@ function convertNumber(number, config) {
                 config.currency && typeof config.currency === "string"
                     ? config.currency
                     : "", // Set the currency symbol (if any).
-            limit = config.decimals || 1, // Set the decimal limit (default is 1).
+            limit = config.decimals || 0, // Set the decimal limit (default is 1).
             unit = ["", "K", "M", "B", "T"], // Number unit based exponent threshold.
             value = ""; 
 
