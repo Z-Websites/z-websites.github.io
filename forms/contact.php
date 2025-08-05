@@ -21,7 +21,7 @@
   $contact->to = $receiving_email_address;
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['New IMPACT Inquiry'];
+  $contact->subject = 'New IMPACT Signup';
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   /*
@@ -35,8 +35,9 @@
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  isset($_POST['phone']) && $contact->add_message($_POST['phone'], 'Phone');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $contact->add_message( $_POST['phone'], 'Phone');
+  // $contact->add_message( $_POST['service'], 'Service');
 
+  $contact->cc = array('xiah@iu.edu', 'alexzimm@iu.edu');
   echo $contact->send();
 ?>
