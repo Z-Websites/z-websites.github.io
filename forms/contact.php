@@ -35,9 +35,9 @@
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['phone'], 'Phone');
+  $contact->add_message( $_POST['phone'], 'Message');
   // $contact->add_message( $_POST['service'], 'Service');
 
-  $contact->cc = array('xiah@iu.edu', 'alexzimm@iu.edu');
+  $contact->cc = array('xiah@iu.edu', 'alexzimm@iu.edu', 'mkacena@iu.edu');
   echo $contact->send();
 ?>
