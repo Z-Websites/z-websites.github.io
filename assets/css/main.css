@@ -677,7 +677,7 @@ section,
   top: 0;
   width: 130%;
   height: 100%; /* 95% */
-  background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color)), url("../img/skyline-background-light-220k.webp") center center no-repeat;
+  background: linear-gradient(to right, color-mix(in srgb, var(--background-color), transparent 90%), var(--background-color)), url("../img/hero.webp") center center no-repeat;
   background-size: cover;
   z-index: 0;
   /* border-radius: 0 0 50% 50%; */
