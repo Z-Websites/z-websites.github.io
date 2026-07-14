@@ -1,0 +1,230 @@
+{
+  "settings": {
+    "newsCardsPerPage": 8,
+    "eventsCardsPerPage": 5
+  },
+  "items": [
+    {
+      "id": "N001",
+      "type": "news",
+      "category": "IMPACT News",
+      "date": "2026-04-20",
+      "featured": true,
+      "title": "Indiana University and Zimmer Biomet launch research, workforce partnership",
+      "summary": "Indiana University and Zimmer Biomet launched a three-year collaboration supporting research, workforce development, and innovation in joint replacement, bone healing, and mobility.",
+      "url": "https://news.iu.edu/live/news/49955-indiana-university-and-zimmer-biomet-launch",
+      "image": "assets/img/news-events/n001-iu-zimmer-biomet-partnership.webp",
+      "imageAlt": "Indiana University and Zimmer Biomet representatives at a partnership signing event."
+    },
+    {
+      "id": "N009",
+      "type": "news",
+      "category": "Partner News",
+      "date": "2026-04-15",
+      "title": "Kelley Indy students shape healthcare innovation with Zimmer Biomet",
+      "summary": "Kelley Indianapolis Evening MBA students worked with Zimmer Biomet on AI-first ideas for orthopedic innovation, supply-chain performance, and connected medical devices.",
+      "url": "https://blog.kelley.indianapolis.iu.edu/2026/04/15/innovation-in-motion-how-kelley-indy-students-are-shaping-the-future-of-healthcare-with-zimmer-biomet/",
+      "image": "assets/img/news-events/n009-kelley-zimmer-biomet-students.webp",
+      "imageAlt": "Indiana University and Zimmer Biomet representatives walk through a Zimmer Biomet manufacturing facility in Warsaw, Indiana."
+    },
+    {
+      "id": "N002",
+      "type": "news",
+      "category": "Research Highlight",
+      "date": "2026-01-26",
+      "title": "IU's musculoskeletal research brings better health solutions to communities and collaborators",
+      "summary": "Researchers across disciplines at Indiana University are driving bioscience innovations that restore and strengthen mobility, from bone recovery technologies to the FIT Core and MSKMobile.",
+      "url": "https://news.iu.edu/live/news/48315-ius-musculoskeletal-research-brings-better-health",
+      "image": "assets/img/news-events/n002-iu-msk-research.webp",
+      "imageAlt": "IU researchers conduct musculoskeletal function and imaging assessments in the FIT Core."
+    },
+    {
+      "id": "N003",
+      "type": "news",
+      "category": "IMPACT News",
+      "date": "2025-11-19",
+      "title": "IMPACT advances bone and muscle health through research, technology and training",
+      "summary": "An interdisciplinary partnership between Indiana University researchers and orthopedic industry leaders is advancing IMPACT’s mission to restore health for patients with osteoporosis, arthritis, and other musculoskeletal disorders.",
+      "url": "https://news.iu.edu/live/news/48014-impact-advances-bone-and-muscle-health-through",
+      "image": "assets/img/news-events/n003-impact-advances-bone-muscle-health.webp",
+      "imageAlt": "IMPACT and IU researchers visit the Zimmer Biomet facility in Warsaw, Indiana."
+    },
+    {
+      "id": "N004",
+      "type": "news",
+      "category": "Partner News",
+      "date": "2025-11-04",
+      "title": "Kelley professor part of NSF finalist consortium driving musculoskeletal innovation",
+      "summary": "Kelley Indianapolis professor Amrou Awaysheh is part of the IU-led IMPACT consortium, which aims to build a musculoskeletal health innovation triangle across Indiana.",
+      "url": "https://blog.kelley.indianapolis.iu.edu/2025/11/04/kelley-professor-part-of-nsf-finalist-consortium-driving-musculoskeletal-innovation/",
+      "image": "assets/img/news-events/n004-kelley-nsf-finalist-consortium.webp",
+      "imageAlt": "Amrou Awaysheh, Kelley School of Business professor and IMPACT technology and innovation leader."
+    },
+    {
+      "id": "N005",
+      "type": "news",
+      "category": "Funding / Award",
+      "date": "2025-09-23",
+      "title": "IU-led consortium named NSF finalist for leadership in musculoskeletal healthcare innovation",
+      "summary": "Indiana University announced that the IU-led IMPACT consortium was named one of 15 finalists in the NSF Regional Innovation Engines competition.",
+      "url": "https://news.iu.edu/live/news/47283-iu-led-consortium-named-nsf-finalist-for-leadership-in",
+      "image": "assets/img/news-events/n005-nsf-finalist.webp",
+      "imageAlt": "Melissa Kacena at an IMPACT booth representing the NSF finalist consortium."
+    },
+    {
+      "id": "N006",
+      "type": "news",
+      "category": "Partner News",
+      "date": "2025-06-16",
+      "title": "IU orthopedic experts join BioCrossroads, OrthoWorx and Zimmer Biomet at FrameWORX Summit",
+      "summary": "IU orthopedic experts joined BioCrossroads, OrthoWorx, and Zimmer Biomet for a FrameWORX Summit focused on musculoskeletal health innovation and Indiana’s orthopedic leadership.",
+      "url": "https://medicine.iu.edu/blogs/indiana-health/iu-orthopedic-experts-join-biocrossroads-at-frameworx-summit",
+      "image": "assets/img/news-events/n006-iu-frameworx-experts.webp",
+      "imageAlt": "Melissa Kacena and Roman Natoli, IU orthopedic experts featured for the BioCrossroads FrameWORX Summit."
+    },
+    {
+      "id": "N007",
+      "type": "news",
+      "category": "Research Highlight",
+      "date": "2025-04-24",
+      "title": "IU scientists develop new bone marrow imaging technique",
+      "summary": "IU scientists developed a new imaging technique that can visualize many cellular markers inside intact bone marrow tissue, supporting research into cancer, autoimmune disease, and musculoskeletal disorders.",
+      "url": "https://medicine.iu.edu/news/2025/04/bone-marrow-imaging-technique",
+      "image": "assets/img/news-events/n007-bone-marrow-imaging.webp",
+      "imageAlt": "IU scientist working with bone marrow imaging equipment."
+    },
+    {
+      "id": "N008",
+      "type": "news",
+      "category": "Partner News",
+      "date": "2024-07-30",
+      "title": "IU School of Medicine names new director of Indiana Center for Musculoskeletal Health",
+      "summary": "Melissa A. Kacena, PhD, was named director of the Indiana Center for Musculoskeletal Health, which focuses on new treatments, diagnostics, and technologies for bone, muscle, and cartilage disorders.",
+      "url": "https://medicine.iu.edu/news/2024/07/kacena-new-chair-musculoskeletal-health",
+      "image": "assets/img/news-events/n008-icmh-new-director.webp",
+      "imageAlt": "Melissa Kacena, director of the Indiana Center for Musculoskeletal Health."
+    },
+    {
+      "id": "E010",
+      "type": "event",
+      "category": "Funding & SBIR",
+      "date": "2026-07-14",
+      "title": "NIH Small Business 101: Building Your Budget",
+      "summary": "NIH SEED’s Small Business 101 webinar series includes a session on building budgets for SBIR/STTR applications and preparing for the next chapter of the small business program.",
+      "url": "https://seed.nih.gov/resources-and-events/events/6a18a08dae13ab86fe0d8772",
+      "image": "assets/img/news-events/e010-nih-small-business-budget.webp",
+      "imageAlt": "NIH SEED webinar graphic representing small business funding and commercialization support."
+    },
+    {
+      "id": "E011",
+      "type": "event",
+      "category": "Funding & SBIR",
+      "date": "2026-08-18",
+      "title": "NIH Small Business 101: Managing Foreign Risk",
+      "summary": "NIH SEED’s Small Business 101 webinar series includes a session on managing foreign risk for small businesses preparing SBIR/STTR applications.",
+      "url": "https://seed.nih.gov/resources-and-events/events/6a18a08dae13ab86fe0d8772",
+      "image": "assets/img/news-events/e011-nih-small-business-foreign-risk.webp",
+      "imageAlt": "NIH SEED webinar graphic representing small business funding and commercialization support."
+    },
+    {
+      "id": "E002",
+      "type": "event",
+      "category": "Medtech & Life Sciences",
+      "date": "2026-08-19",
+      "title": "Medical Devices in Indiana: Igniting the Next Wave of Growth",
+      "summary": "BioCrossroads FrameWORX will bring medical device manufacturers, life sciences leaders, startups, academic partners, workforce experts, and economic-development leaders to Bloomington.",
+      "url": "https://biocrossroads.com/events/inside-indianas-medtech-manufacturing-advantage/",
+      "image": "assets/img/news-events/e002-medical-devices-in-indiana.webp",
+      "imageAlt": "BioCrossroads FrameWORX August 2026 event graphic."
+    },
+    {
+      "id": "E003",
+      "type": "event",
+      "category": "Funding & SBIR",
+      "date": "2026-08-21",
+      "title": "Write a Stronger NIH SBIR Specific Aims Page",
+      "summary": "This hands-on BioCrossroads workshop is designed to help life sciences innovators draft a clearer NIH SBIR Specific Aims page and strengthen the commercial relevance of their proposal.",
+      "url": "https://biocrossroads.com/events/write-a-stronger-nih-sbir-specific-aims-page/",
+      "image": "assets/img/news-events/e003-nih-sbir-specific-aims.webp",
+      "imageAlt": "BioCrossroads and Indiana Biosciences Research Institute event graphic."
+    },
+    {
+      "id": "E008",
+      "type": "event",
+      "category": "AI & Innovation",
+      "date": "2026-08-26",
+      "title": "Indiana AI Innovation Network: Navigating AI Supply Chain Risks",
+      "summary": "TechPoint’s Indiana AI Innovation Network will host a case-study review on identifying, managing, and mitigating AI supply chain risks using AI Bills of Materials.",
+      "url": "https://techpoint.org/ai-innovation-network/events/august-network-meeting-2026/",
+      "image": "assets/img/news-events/e008-ai-supply-chain-risks.webp",
+      "imageAlt": "TechPoint logo representing the Indiana AI Innovation Network event."
+    },
+    {
+      "id": "E001",
+      "type": "event",
+      "category": "MSK IMPACT",
+      "date": "2026-08-28",
+      "endDate": "2026-08-29",
+      "title": "AJA 2026 / 2nd Annual ICMH Conference",
+      "summary": "The 6th Annual Jaseng Academic International Conference is co-hosted by Jaseng and Indiana University and also serves as the 2nd Annual Indiana Center for Musculoskeletal Health Conference.",
+      "url": "https://www.jaseng.education/aja2026",
+      "image": "assets/img/news-events/e001-aja-2026-icmh-impact-conference.webp",
+      "imageAlt": "AJA 2026 conference graphic for the ICMH conference in Indianapolis."
+    },
+    {
+      "id": "E005",
+      "type": "event",
+      "category": "Startup & Venture",
+      "date": "2026-09-02",
+      "title": "Warsaw Medtech Expo - Batch 5",
+      "summary": "Plug and Play Warsaw’s Medtech Expo will showcase Batch 5 startups and convene participants around healthcare and medical technology innovation in Winona Lake.",
+      "url": "https://www.plugandplaytechcenter.com/event/warsaw-medtech-expo-2026-09-02",
+      "image": "assets/img/news-events/e005-warsaw-medtech-expo.webp",
+      "imageAlt": "Plug and Play graphic representing the Warsaw Medtech Expo."
+    },
+    {
+      "id": "E009",
+      "type": "event",
+      "category": "AI & Innovation",
+      "date": "2026-10-15",
+      "title": "Midwest AI Summit",
+      "summary": "Hosted by Prediction Guard, the Midwest AI Summit is focused on practical enterprise AI use cases in industries including healthcare, life sciences, manufacturing, and agriculture.",
+      "url": "https://techpoint.org/tech-events/midwest-ai-summit-2/",
+      "image": "assets/img/news-events/e009-midwest-ai-summit.webp",
+      "imageAlt": "TechPoint logo representing the Midwest AI Summit."
+    },
+    {
+      "id": "E006",
+      "type": "event",
+      "category": "Startup & Venture",
+      "date": "2026-10-22",
+      "title": "Warsaw Plug-In Coffee Hour",
+      "summary": "Plug and Play Warsaw will host a coffee-hour networking event at Zimmer Biomet for the Warsaw medtech community.",
+      "url": "https://www.plugandplaytechcenter.com/event/plug-in-warsaw-coffee-hour-2026-10-22",
+      "image": "assets/img/news-events/e006-warsaw-coffee-hour.webp",
+      "imageAlt": "Plug and Play graphic representing a Warsaw medtech networking event."
+    },
+    {
+      "id": "E004",
+      "type": "event",
+      "category": "Medtech & Life Sciences",
+      "date": "2026-10-28",
+      "title": "2026 BioCrossroads Life Sciences Summit",
+      "summary": "The 2026 BioCrossroads Life Sciences Summit will explore how artificial intelligence is changing research, development, manufacturing, commercialization, clinical care, and patient delivery.",
+      "url": "https://biocrossroads.com/2026-biocrossroads-life-sciences-summit-save-the-date/",
+      "image": "assets/img/news-events/e004-biocrossroads-life-sciences-summit.webp",
+      "imageAlt": "BioCrossroads event graphic representing the 2026 Life Sciences Summit."
+    },
+    {
+      "id": "E007",
+      "type": "event",
+      "category": "Medtech & Life Sciences",
+      "date": "2026-10-29",
+      "title": "2026 IBRI Global Forum",
+      "summary": "The IBRI Global Forum will convene leaders in science, philanthropy, and investment to discuss translational medicine and drug development from discovery to patients.",
+      "url": "https://www.indianabiosciences.org/2026-ibri-global-forum/",
+      "image": "assets/img/news-events/e007-ibri-global-forum.webp",
+      "imageAlt": "William G. Kaelin Jr., keynote speaker for the 2026 IBRI Global Forum."
+    }
+  ]
+}

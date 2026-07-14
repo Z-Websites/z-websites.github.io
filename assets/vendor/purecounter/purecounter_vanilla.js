@@ -395,4 +395,6 @@ function PureCounter(options = {}) {
     registerEventListeners();
 }
 
-module.exports = PureCounter;
+if (typeof module !== "undefined" && module.exports) {
+    module.exports = PureCounter;
+}

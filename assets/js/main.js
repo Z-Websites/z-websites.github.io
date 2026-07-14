@@ -7,6 +7,11 @@
   function toggleScrolled() {
     const selectBody = document.querySelector('body');
     const selectHeader = document.querySelector('#header');
+    if (!selectHeader) return;
+    if (!selectBody.classList.contains('index-page')) {
+      selectBody.classList.remove('scrolled');
+      return;
+    }
     if (!selectHeader.classList.contains('scroll-up-sticky') && !selectHeader.classList.contains('sticky-top') && !selectHeader.classList.contains('fixed-top')) return;
     window.scrollY > 100 ? selectBody.classList.add('scrolled') : selectBody.classList.remove('scrolled');
   }
@@ -126,6 +131,17 @@
       if (swiperElement.classList.contains("swiper-tab")) {
         initSwiperWithCustomPagination(swiperElement, config);
       } else {
+        const resolveSwiperControl = (control) => typeof control === "string" ? swiperElement.querySelector(control) : control;
+
+        if (config.navigation) {
+          config.navigation.nextEl = resolveSwiperControl(config.navigation.nextEl);
+          config.navigation.prevEl = resolveSwiperControl(config.navigation.prevEl);
+        }
+
+        if (config.pagination && typeof config.pagination.el === "string") {
+          config.pagination.el = resolveSwiperControl(config.pagination.el);
+        }
+
         new Swiper(swiperElement, config);
       }
     });
