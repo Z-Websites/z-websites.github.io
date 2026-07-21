@@ -38,6 +38,6 @@
   $contact->add_message( $_POST['phone'], 'Message');
   // $contact->add_message( $_POST['service'], 'Service');
 
-  $contact->cc = array('xiah@iu.edu', 'alexzimm@iu.edu', 'mkacena@iu.edu');
+  $contact->cc = array('xiah@iu.edu', 'thberndt@iu.edu', 'mkacena@iu.edu');
   echo $contact->send();
 ?>
